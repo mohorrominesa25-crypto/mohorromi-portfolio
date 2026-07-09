@@ -10,8 +10,6 @@ nav{
     
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 8px 0;
 }
 ul{
@@ -40,4 +38,45 @@ ul li a{
         font-size: 20px;    
         color: white;
         border: none;
+        cursor: pointer;
+ } 
+ .container{
+    max-width: 1200px;
+    margin: auto;
  }
+ .hero-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ .left h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom:12px ;
+ }
+ .left .p1{
+    font-weight: semi-bold;
+    font-size: 25px;
+ }
+ .outline{
+    background-color: white;
+        padding: 10px 20px;
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 20px;    
+        color: #fd6e0a;
+        border:2px solid #fd6e0a;
+        cursor: pointer;
+ }
+ .hero-button{
+    margin-top: 12px;
+    
+ }
+.hero-root{
+    background-color: #fff8f3;
+}
+img{
+    max-width: 100%;
+}
