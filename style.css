@@ -158,3 +158,37 @@ img{
         color: #757575; 
        font-size: 16px;
     }
+    .gallery-parent{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 30px;
+        gap: 12px;
+        grid-auto-rows: 250px;
+        grid-template-areas:
+         "one two three"
+        "four two six"
+        "four five six";
+    }
+    .gallery img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+    }
+    .box-1{
+        grid-area:one ;
+    }.box-2{
+        grid-area: two;
+    }.box-3{
+        grid-area: three;
+    }.box-4{
+        grid-area: four;
+    }.box-5{
+        grid-area:five ;
+    }.box-6{
+        grid-area:six ;
+    }
