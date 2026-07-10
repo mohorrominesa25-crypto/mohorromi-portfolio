@@ -192,3 +192,31 @@ img{
     }.box-6{
         grid-area:six ;
     }
+    footer{
+        text-align: center;
+        margin-top: 80px !important;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        gap: 15px;
+        background-color: #fff8f3;
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+    footer form input,footer form textarea{
+        border:none ;
+        outline: none;
+        background-color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        display: block;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    footer form{
+        padding: 12px;
+    }
+    .footer-left p{
+        margin: 15px 0;
+    }
