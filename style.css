@@ -101,3 +101,26 @@ img{
         padding: 5px;
         border-radius: 5px;
     }
+    .what-parent{
+        margin: 50px auto;
+        text-align: center;
+    }
+    .card-parent{
+        margin-top: 30px;
+        display:flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .card{
+        border: 2px solid #f7eee6;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: left;
+    }
+    .card p{
+       color: #757575; 
+       font-size: 16px;
+    }
+    .card h2{
+        margin:10px auto ;
+    }
